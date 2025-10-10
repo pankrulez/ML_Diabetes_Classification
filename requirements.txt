@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+PyYAML
+python-box
+ensure
+dvc
+xgboost
+pyyaml
+joblib
+python-box
+ensure
+flask
