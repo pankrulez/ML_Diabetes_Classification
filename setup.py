@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.1"
 REPO_NAME = "ML_Diabetes_Classification"
 AUTHOR_USER_NAME = "pankrulez"
-SRC_REPO = "mlProject"
+SRC_REPO = "https://github.com/pankrulez/ML_Diabetes_Classification.git"
 AUTHOR_EMAIL = "kapripankaj12@gmail.com"
 
 setuptools.setup(

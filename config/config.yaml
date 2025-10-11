@@ -1,0 +1,10 @@
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/pankrulez/ML_Diabetes_Classification.git/diabetic_data.zip
+  local_data_file: artifacts/data_ingestion/data.zip # Path to store the downloaded zip file
+  raw_data_dir: artifacts/data_ingestion/data        # Directory to store the extracted raw data
+  unzip_dir: artifacts/data_ingestion/data        # Directory where the zip file will be extracted (same as raw_data_dir)
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/data/diabetic_data.csv # Path to the actual data file after unzipping
+  status_file: artifacts/data_validation/status.txt
